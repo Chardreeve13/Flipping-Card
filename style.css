@@ -61,8 +61,7 @@ section::after {
     align-items: center;
 }
 
-.front-face header {
-    justify-content: space-between;
+.front-face header{
 }
 
 .front-face .logo img {
