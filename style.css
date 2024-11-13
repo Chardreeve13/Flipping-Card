@@ -56,13 +56,15 @@ section::after {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.front-face header{
-
-}
 .front-face .logo{
     display: flex;
     align-items: center;
 }
+
+.front-face header {
+    justify-content: space-between;
+}
+
 .front-face .logo img {
     width: 48px;
     margin-right: 10px;
