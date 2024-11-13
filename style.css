@@ -61,12 +61,11 @@ section::after {
     align-items: center;
 }
 
-.front-face header {
+.front-face .header {
     justify-content: space-between;
 }
 
 .front-face .logo img {
-    justify-content: space-between;
     width: 48px;
     margin-right: 10px;
 }
