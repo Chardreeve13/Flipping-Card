@@ -62,7 +62,6 @@ section::after {
 }
 
 .front-face header {
-    padding-right: 25px;
     justify-content: space-between;
 }
 
