@@ -66,6 +66,7 @@ section::after {
 }
 
 .front-face .logo img {
+    justify-content: space-between;
     width: 48px;
     margin-right: 10px;
 }
