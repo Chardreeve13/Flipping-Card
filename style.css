@@ -42,7 +42,7 @@ section::after {
 .container {
     position: relative;
     height: 225px;
-    width: 3100px;
+    width: 375px;
     z-index: 100;
 }
 .container .card {
