@@ -62,7 +62,7 @@ section::after {
 }
 
 .front-face header {
-    justify-content: space-evenly;
+    justify-content: space-between;
     }
 
 .front-face .logo img {
