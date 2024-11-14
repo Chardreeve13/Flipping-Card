@@ -61,7 +61,7 @@ section::after {
     align-items: center;
 }
 
-.front-face header {
+.card header {
     justify-content: space-between;
     }
 
