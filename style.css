@@ -62,7 +62,7 @@ section::after {
 }
 
 .front-face header{
-    display:flex;
+    display:flex;  
     justify-content:space-between;
     }
 
@@ -84,7 +84,7 @@ h5 {
     display:flex;
     align-items: flex-end;
     justify-content: space-between; 
-    padding: 20px;
+    margin-top: 40px;
 }
 
 h6 {
@@ -92,11 +92,48 @@ h6 {
     font-weight: 400;
 }
 
-h5 .number {
+h5.number {
 font-size: 18px;
 letter-spacing: 1px;
 }
 
-h5 .name{
+h5.name{
     margin-top: 20px;
+}
+
+.card.back-face{
+    border:none;
+    padding: 15px 25px 25px 25px;
+}
+
+.card.back-face h6{
+    font-size: 8px;
+}
+
+.card.back-face .magnetic-strip{
+    position:absolute;
+    top: 40px;
+    left:0;
+    height: 45px;
+    width: 100%;
+    background: #000;
+}
+
+.card.back-face .signature{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 80px;
+    height: 40px;
+    width: 85%;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+h5.back-details{
+font-size: 10px;
+}
+
+.signature i{
+    color:#000;
 }
